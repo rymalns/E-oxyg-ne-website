@@ -1,0 +1,634 @@
+@font-face {
+    font-family: "Roboto Slab Thin";
+    src: url("../font/RobotoSlab-VariableFont_wght.ttf") format("truetype");
+}
+/* navbar */
+.logo{
+    height: 80%;
+    width: 80%;
+    margin-left: 5%;
+    margin-top: -1%;
+}
+.nav-item1{
+    background-color: #00b3ad;
+    padding: 10px 25px;
+    border-radius: 37px;
+    margin-top: -1%;
+}
+.nav-link{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #055151;
+    cursor: pointer;
+}
+.nav-link:hover{
+    opacity:0.5 ;
+}
+/*contenu*/
+.personel{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 8%;
+}
+.hello{
+    width: 60%;
+}
+.bigtitle{
+    font-family: "Roboto Slab Thin";
+    font-size: 39px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.32;
+    letter-spacing: normal;
+    text-align: left;
+    color: #055151;
+}
+.bienvenue{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #055151;
+}
+.butt{
+    width: 35%;
+    margin-left: 5%;
+}
+.butt a{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 37px;
+    background-color: #00b3ad;
+    display: block;
+    width: 296.1px;
+    margin-top: 2.5%;
+    text-decoration: none;
+}
+.butt a:hover{
+    background-color: #fff;
+    color: #00b3ad;
+    border: solid 2px #00b3ad;
+} 
+/*anonces*/
+.lines{
+    display: flex;
+    width: 80%;
+    margin-left:  10%;
+    margin-top: 5%;
+}
+.line1{
+    width: 42%;
+    height: 0;
+    border: solid 2px #055151;
+    margin-top: 1.25%;
+}
+.lines p{
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.23;
+    letter-spacing: normal;
+    text-align: center;
+    color: #055151;  
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.line2{
+    width: 42%;
+    height: 0;
+    border: solid 2px #055151;
+    margin-top: 1.25%;
+}
+/* event */
+.annonce{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 4%;
+    padding:5%;
+    border-radius: 14px;
+    background-color: #e1f6f6;}
+.info{
+    margin-left: 5%;
+}
+.title{
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.23;
+    letter-spacing: normal;
+    text-align: left;
+    color: #055151;
+}
+.contenu{
+    display: flex;
+}
+.text{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+    width: 60%;
+}
+.butt1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+
+}
+.butt1 div{
+    margin-top: 15%;
+}
+.butt1text{
+    padding: 10px 36px;
+    border-radius: 37px;
+    border: solid 2px #00b3ad;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #00b3ad;
+    text-decoration: none;
+    width: 225px;
+
+}
+.butt2text{
+    padding: 10px 30px;
+    border-radius: 37px;
+    border: solid 2px #e80000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #e80000;
+    text-decoration: none;
+    width: 225px;
+
+}
+.butt1text:hover{
+    color: #ffff;
+    background-color: #00b3ad;
+}
+.butt2text:hover{
+    color: #ffff;
+    background-color: #e80000;
+}
+
+.li{
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+}
+
+.li li{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #055151;
+    margin-left: 3%;
+}
+.valeur{
+    font-weight: 500;
+    color: #007e7a;
+    font-size: 18px;
+}
+/* footer */
+footer{
+    background-color: #00b3ad ;
+}
+.logofooter{
+    height: 15%;
+    width: 15%;
+    margin-left: 10%;
+}
+/*form*/
+.form{
+    width: 40%;
+    margin-left: 30%;
+}
+.titleform{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #ffffff;
+    font-family: "Roboto Slab Thin";
+    margin-bottom: 10%;
+
+}
+.ligne1{
+    display: inline;
+    width: 15%;
+}
+label{
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.23;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 4%;
+}
+.navfooter{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+.navfooter li {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: #ffffff;
+    padding: 2%;
+    text-align: center;
+    margin-bottom: 5%;
+    text-decoration:none;
+    padding: 2%;
+}
+.navfooter li a{
+    color: #ffff;
+    text-decoration:none;  
+}
+.navfooter li a:hover{
+    color: #ffff;
+    opacity: 0.5;   
+}
+.footerinfo{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.fond{
+    background-image: url("../img/entremf.PNG");
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive */
+@media only screen and (max-width: 991px) {
+    .nav-item1{
+        background-color: #00b3ad;
+        padding: 10px 20px;
+        border-radius: 37px;
+        margin-top: 0%;
+        width: min-content;
+    }
+    /*contenu*/
+.personel{
+    width: 80%;
+    margin-left: 10%;
+}
+.bigtitle{
+    font-size: 35px;
+}
+.bienvenue{
+    font-size: 18px;
+}
+.butt{
+    width: 35%;
+}
+.butt a{
+   
+    font-size: 18px;
+    width: max-content;
+   
+}
+.lines p{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.23;
+    letter-spacing: normal;
+    text-align: center;
+    color: #055151;  
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.line1{
+    width: 37%;
+    height: 0;
+    border: solid 2px #055151;
+    margin-top: 1.25%;
+}
+.line2{
+    width: 37%;
+    height: 0;
+    border: solid 2px #055151;
+    margin-top: 1.25%;
+}
+.lines{
+    display: flex;
+    width: 75%;
+    margin-left:  14%;
+    margin-top: 5%;
+}
+/* event */
+.annonce{
+    display: block;
+}
+.title{
+    margin-top: 5%;
+}
+.contenu{
+    display: block;
+}
+.text{
+    width: 100%;
+}
+.rech:hover{
+    color: #ffff;
+    background-color: #00b3ad;
+}
+.li li{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #055151;
+    margin-left: 3%;
+}
+.valeur{
+    font-weight: 500;
+    color: #007e7a;
+    font-size: 18px;
+}
+.img{
+    width: 50%;
+    margin-left: 25%;
+}
+.butt1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+.butt1 div{
+    margin-top: 0%;
+    margin-bottom: 5%;
+}
+.butt1text{
+    padding: 8px 30px;
+    font-size: 15px;
+}
+.butt2text{
+    padding: 8px 30px;
+    font-size: 15px;
+}
+    /**/
+    .form{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .titleform{
+    text-align: center;
+    font-size: 20px;
+    }  
+    label{
+    font-family: Montserrat;
+    font-size: 20px;
+    } 
+    .navfooter li {
+    font-size: 15px;
+    font-weight: 600; 
+    }
+    .footerinfo{
+    font-family: Montserrat;
+    font-size: 13px;
+    }
+    .logofooter{
+        height: 20%;
+        width: 20%;
+        margin-left: 10%;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 476px) {
+    .nav-item1{
+        background-color: #00b3ad;
+        padding: 10px 20px;
+        border-radius: 37px;
+        margin-top: 0%;
+        width: min-content;
+    }
+    .logo{
+        height: 50%;
+        width: 50%;
+        margin-left: 5%;
+        margin-top: -1%;
+    }
+   /*contenu*/
+.personel{
+    display: block;
+    width: 100%;
+}
+.hello{
+    width: 95%;
+    margin-left: 1%;
+}
+.bigtitle{
+    font-size: 25px;
+    font-weight: 700;
+}
+.bienvenue{
+    font-size: 15px;
+    font-weight: 500;
+}
+.butt{
+    width: 95%;
+    margin-left: 5%;
+}
+.butt a{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px 12.5px;
+    width: max-content;
+    margin-top: 2.5%;
+}
+/*anonces*/
+.lines{
+    display: flex;
+    width: 90%;
+    margin-left:  10%;
+    margin-top: 5%;
+}
+.line1{
+    width: 32%;
+    height: 0;
+    border: solid 2px #055151;
+    margin-top: 1.25%;
+}
+.lines p{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.23;
+    letter-spacing: normal;
+    text-align: center;
+    color: #055151;  
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.line2{
+    width: 32%;
+    height: 0;
+    border: solid 2px #055151;
+    margin-top: 1.25%;
+}
+ /* event */
+ .annonce{
+    display: block;
+}
+.title{
+    font-size: 23px;
+    font-weight: 700;
+    margin-top: 8%;
+}
+.contenu{
+    display: block;
+}
+.text{
+    font-size: 18px;
+    font-weight: 500;
+    width: 100%;
+}
+.butt1 div{
+    margin-top: 2.5%;
+    margin-bottom: 5%;
+}
+
+.li{
+    display: block;
+    list-style-type: none;
+    text-align: center;
+    margin-top: 10%;
+}
+.li li{
+    line-height: 150%;
+}
+.img{
+    width: 80%;
+    margin-left: 10%;
+}
+
+}

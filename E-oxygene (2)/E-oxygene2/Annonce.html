@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Créer une Annonce</title>
+    <meta charset="UTF-8">
+    <link href="annonce.css" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/27e5e9f5bc.js" crossorigin="anonymous"></script> <!--pour avoir les log des boutons-->
+    <link href="../css/principale.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        
+    /* forms */
+    .annonce h2{
+    font-family: Montserrat;
+    padding-top: 9%;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    color: #02817d;
+    font-weight: 600;
+    font-size: 28px;
+    }
+    .form-control{
+    align-items: center;
+    margin: auto;
+    border-radius: 7px;
+    width: 50%;
+    background-color: #F3FFFF;
+    border: 1px solid #02817d ;
+    }
+    .btn-annonce{
+    margin-left: 25%; 
+    align-items: center; 
+    width: 50%; 
+    background-color: teal; 
+    color: white; 
+    border-radius: 2%;
+    outline: none;
+    height: 50px;
+    font-size: 15px;
+    text-decoration: none;
+    }
+    @media screen and (max-width: 800px) {
+    footer{
+        margin-top: 40%;
+        width: 100%;
+    }
+    .text{
+        width: 500px;
+        height: 100px;
+    }
+   
+    .logo{
+        margin-left: 50%;
+    }
+    
+  }
+
+    </style>
+
+</head>
+
+<body>
+    <!-- ****************** NavBar ******************* -->    
+    <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="Logo.png" alt="E-Oxygène" class="logo"/>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto text-center">
+                            <li class="nav-item ms-4">
+                                <a class="nav-link " aria-current="page" href="#">Accueil</a>
+                            </li>
+                            <li class="nav-item ms-5">
+                                <a class="nav-link" href="#">Utilisation</a>
+                            </li>
+                            <li class="nav-item ms-5">
+                                <a class="nav-link" href="#">à propos de nous </a>
+                            </li>
+                            <li class="nav-item ms-5">
+                                <a class="nav-link" href="#">Nous contacter</a>
+                            </li>
+                            <li class="nav-item1 ms-5">
+                                <a class="nav-link" href="#"> Connexion</a>
+                            </li>   
+                        </ul>
+                    </div>
+                </div>
+    </nav>
+ 
+    <!--Annonce forms-->
+    <div class="container annonce">
+                <h2>Créer une annonce</h2>
+            <form>
+                <div class="form-group">
+                    <label for="sel1" style="text-align: left;   width: 100%; padding-top: 6%; padding-bottom: 1%; padding-left: 25%;color: #037470; font-size: 18px; font-weight: 600; ">Type de service</label>
+                    <select class="form-control" id="sel1">
+                    <option>ambulance</option>
+                    <option>concentrateur</option>
+                    <option>bouteille d'oxygenne</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="text" style="text-align: left;   width: 100%; padding-top: 1%; padding-bottom: 1%; padding-left: 25%; color: #037470; font-size: 18px; font-weight: 600;">Nom de l'annonce</label>
+                    <input type="text" class="form-control" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="number" style="text-align: left;   width: 100%; padding-top: 1%; padding-bottom: 1%; padding-left: 25%; color: #037470; font-size: 18px; font-weight: 600;" >Quantité</label>
+                    <input type="number" class="form-control" id="pwd">
+                </div>
+                <div class="form-group">
+                    <label for="number" style="text-align: left;   width: 100%; padding-top: 1%; padding-bottom: 1%; padding-left: 25%; color: #037470; font-size: 18px; font-weight: 600;" >Capacité</label>
+                    <input type="number" class="form-control" id="pwd">
+                </div>
+                <div class="form-group">
+                    <label for="text" style="text-align: left;   width: 100%; padding-top: 1%; padding-bottom: 1%; padding-left: 25%; color: #037470; font-size: 18px; font-weight: 600;">Wilaya</label>
+                    <input type="text" class="form-control" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="sel1" style="text-align: left;   width: 100%; padding-top: 1%; padding-bottom: 1%; padding-left: 25%; color: #037470; font-size: 18px; font-weight: 600;">Service gratuit/payant</label>
+                    <select class="form-control" id="sel1">
+                    <option>gratuit</option>
+                    <option>payant</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="text" style="text-align: left;   width: 100%; padding-top: 1%; padding-bottom: 1%; padding-left: 25%; color: #037470; font-size: 18px; font-weight: 600;">Informations complémentaires</label>
+                    <input type="text" class="form-control" id="email" style="height: 100px;">
+                </div>
+            
+            
+            </form>
+        
+    </div>
+
+    <!--footer-->
+    
+    <footer>
+            <img src="Logo-White.png" style="margin-top: 10%; margin-left: 10%; width: 20%;" class="IMG">
+            <div class="container footer">
+            
+            <h2>Nous contactez</h2>
+                <form class="form-inline" action="/action_page.php">
+                <div class="form-group FORM">
+                    <label for="text" style="width: 100%; color: white; font-size: 18px; text-align: left; padding-left: 15%;">Nom complet</label>
+                    <input type="text" class="form-control" id="text" placeholder="Nom & prénom" name="email" style="width: 280px; text-align: left;    font-size: 14px;">
+                </div>
+                <div class="form-group">
+                    <label for="pwd" style="width: 100%; color: white; font-size: 18px; text-align: left; padding-left: 15%;">Adress e-mail</label>
+                    <input type="email" class="form-control" id="email" placeholder="example@gmail.com" name="pwd" style="   width: 280px;    font-size: 14px;  ">
+                </div>
+
+                
+                </form>
+                <form style="margin: auto;">
+                    <div class="form-group">
+                        <label for="pwd" style="width: 100%; color: white; font-size: 18px; text-align: left; padding-left: 28%; padding-top: 5%;">Corps du text</label>
+                        <input type="text" class="form-control text" id="TEXT" placeholder="Corps du text" name="pwd" style="   width: 470px;  height: 100px;   font-size: 14px;  ">
+                    </div>
+                    <div class="footer-detail">
+                    <p>usthb.celec@gmail.com</p>
+                    <h3 style="padding-top: 5px; padding-bottom: 5px;">Labo N°13</h3>
+                    <p>Faculté d'éléctronique et informatique USTHB Bab Ezzouar, alger</p>
+                    </div>
+                </form>
+            </div>
+        
+                
+    </footer>
+
+            
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

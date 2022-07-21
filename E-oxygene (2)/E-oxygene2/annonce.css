@@ -1,0 +1,93 @@
+body{
+    background-image: url(background-annonce.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Montserrat;
+    background-color: teal;
+}
+/* navbar */
+.logo{
+height: 100%;
+width: 100%;
+margin-left: 20%;
+margin-top: 3%;
+}
+
+.nav-link{
+
+font-family: Montserrat;
+font-size: 17px;
+font-weight: 600;
+font-stretch: normal;
+font-style: normal;
+letter-spacing: normal;
+text-align: left;
+cursor: pointer;
+
+text-decoration: none;
+
+}
+.nav-link:hover{
+background-color: #00b3ad;
+text-decoration: none;
+
+border-radius: 37px;
+color: white;
+}
+nav ul li {
+
+padding-top: 3%;
+color: #055151;
+
+}
+/* forms */
+.annonce h2{
+  font-family: Montserrat;
+  padding-top: 9%;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  color: #02817d;
+  font-weight: 600;
+  font-size: 28px;
+}
+.form-control{
+align-items: center;
+margin: auto;
+border-radius: 7px;
+width: 50%;
+background-color: #F3FFFF;
+border: 1px solid #02817d ;
+}
+.btn-annonce{
+margin-left: 25%; 
+align-items: center; 
+width: 50%; 
+background-color: teal; 
+color: white; 
+border-radius: 2%;
+outline: none;
+height: 50px;
+font-size: 15px;
+text-decoration: none;
+}
+/* footer */
+.footer{
+width: 100%;
+margin: auto;
+text-align: center;
+}
+footer h2{
+font-size: 25px;
+font-weight: 600;
+color: white;
+padding-bottom: 5%;
+
+}
+.footer-detail{
+color: white;
+font-size: 18px;
+font-weight: 600;
+
+}

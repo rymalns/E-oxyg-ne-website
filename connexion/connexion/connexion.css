@@ -1,0 +1,118 @@
+body{
+    background-image: url(background-annonce.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Montserrat;
+    background-color: teal;
+}
+/* navbar */
+.logo{
+height: 100%;
+width: 100%;
+margin-left: 20%;
+margin-top: 3%;
+}
+
+.nav-link{
+
+font-family: Montserrat;
+font-size: 17px;
+font-weight: 600;
+font-stretch: normal;
+font-style: normal;
+letter-spacing: normal;
+text-align: left;
+cursor: pointer;
+
+text-decoration: none;
+
+}
+.nav-link:hover{
+background-color: #00b3ad;
+text-decoration: none;
+
+border-radius: 37px;
+color: white;
+}
+nav ul li {
+
+padding-top: 3%;
+color: #055151;
+
+}
+/* forms */
+.FORM{
+    margin-top: 8%;
+}
+.connexion{
+align-items: center;
+margin: auto;
+text-align: center;
+}
+.connexion h2{
+  font-family: Montserrat;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  color: #02817d;
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.h2 p{
+    padding-top: 3%;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    color: #02817d;
+    text-decoration: none;
+}
+.h2 a{
+    color: #02817d;
+}
+.h2 a:hover{
+    color: #21807c;
+}
+.form-control{
+align-items: center;
+margin: auto;
+border-radius: 7px;
+width: 100%;
+background-color: #F3FFFF;
+border: 1px solid #02817d ;
+}
+
+/* footer */
+
+.footer{
+width: 100%;
+margin: auto;
+text-align: center;
+}
+footer h2{
+font-size: 25px;
+font-weight: 600;
+color: white;
+padding-bottom: 5%;
+
+}
+.footer-detail{
+color: white;
+font-size: 18px;
+font-weight: 600;
+
+}
+@media screen and (max-width: 800px) {
+    .h2 h2{
+        font-size: 20px;
+    }
+    .form-group p{
+        font-size: 18px;
+        margin: auto;
+        text-align: center;
+        padding-right: 12%;
+    }
+    
+  }
